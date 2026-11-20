@@ -1,0 +1,37 @@
+<html style="background-color:aquamarine">
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h3><b>Employee Registration Form</b></h3>
+        <form action="task3_final.html">
+            Employee Name: <input type="text" name="g1" placeholder="Enter your name" autofocus><br><br>
+            Password: <input type="password" name="g2" placeholder="abc@123"><br><br>
+            Email: <input type="email" name="g3" placeholder="name@gmail.com"><br><br>
+            Mobile Number: <input type="number" name="g4" placeholder="10 digit number" pattern="[0,9] {10}" required><br><br>
+            Age: <input type="number" name="g5"><br><br>
+            Date of Birth: <input type="date" name="g6"><br><br>
+            Preferred Interview Time: <input type="time" name="g7" required><br><br>
+            Gender: <input type="radio" name="g8">Male
+                    <input type="radio" name="g8">Female
+                    <input type="radio" name="g8">Would rather not say<br><br>
+            Skills Known : <input type="checkbox" name="g9">HTML
+                           <input type="checkbox" name="g9">CSS
+                           <input type="checkbox" name="g9">Java Script
+                           <input type="checkbox" name="g9">PHP<BR><br> 
+            Select Department: <select name="g10" required>
+                            <option value="1">SELECT</option>
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>AI/DS</option>
+            </select><br><br>
+            Upload Resume: <input type="file" name="g11" accept=".pdf, .png, .jpg"><br><br>
+            Address: <textarea name="g12" required rows="3" cols="30"
+                    placeholder="Enter your address"></textarea><br><br>
+            Work Experience: <input type="range" name="g13" min="1" max="100"><br><br>
+            LinkedIn Profile: <input type="url" name="g14" placeholder="profile"><br><br>
+            <button type="submit">Register</button>
+            <button type="reset">Clear All</button>    
+        </form>
+    </body>
+</html>
